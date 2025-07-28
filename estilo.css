@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6ee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f5e8d0;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f5e8d0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #6f4e37;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #8d6e63;
+}
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+section {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: white;
+  width: 260px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px 0;
+  color: #6f4e37;
+}
+
+.product-card p {
+  padding: 0 10px 15px 10px;
+  color: #333;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px 0;
+  color: #6f4e37;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact-form button {
+  background-color: #8d6e63;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.contact-form button:hover {
+  background-color: #6f4e37;
+}
+
+footer {
+  background-color: #f5e8d0;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+  color: #6f4e37;
+}
